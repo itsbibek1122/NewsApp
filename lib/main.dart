@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
-import 'package:news_app/models/api_call.dart';
 import 'package:news_app/screens/homepage.dart';
 
 void main() async {

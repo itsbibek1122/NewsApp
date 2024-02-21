@@ -76,7 +76,7 @@ class _CustomAppBarState extends State<CustomAppBar> {
               } else {
                 final newsModal = snapshot.data as NewsModal;
                 if (newsModal.articles != null) {
-                  print('The data from UI file ${_newsFuture}');
+                  print('The data from UI file ${_newsFuture.toString()}');
                   return Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
